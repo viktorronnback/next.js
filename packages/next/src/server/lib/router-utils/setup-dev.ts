@@ -1180,7 +1180,7 @@ async function startWatcher(opts: SetupOpts) {
             await writeMiddlewareManifest()
             await writeOtherManifests()
 
-            processIssues(page, writtenEndpoint, true)
+            processIssues(page, writtenEndpoint)
 
             break
           }
@@ -1206,7 +1206,7 @@ async function startWatcher(opts: SetupOpts) {
             await writeMiddlewareManifest()
             await writeOtherManifests()
 
-            processIssues(page, writtenEndpoint, true)
+            processIssues(page, writtenEndpoint)
 
             break
           }
